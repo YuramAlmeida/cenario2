@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const rubik = Rubik_Iso({ weight: "400", subsets: ["latin"] });
 
-const apiUrl = "https://cenario2-4b25.onrender.com";
+const apiUrl = "https://cenario-2ok.onrender.com";
 // const apiUrl = process.env.API_URL;
 
 export default function Home() {
