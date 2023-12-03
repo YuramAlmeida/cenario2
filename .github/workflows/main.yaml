@@ -29,9 +29,10 @@ jobs:
       - name: NPM install, build and test
         run: |
           npm install
-          npm run 
+          npm run
         env: 
           DBHOST: ${{ secrets.DBHOST }}
+
 
   # Heavily modified deploy job to fit render.com
   deploy:
